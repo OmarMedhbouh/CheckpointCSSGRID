@@ -1,0 +1,188 @@
+.navbar{
+    position:sticky;
+}
+
+.grid {
+display:grid;
+grid-template-columns: auto;
+
+}
+
+.paragraphe1 {
+    grid-column-start: 1;
+    padding:auto;
+    margin:100 0;
+    
+}
+
+.paragraphe2 {
+    grid-column-start:2;
+padding:auto;
+margin:100 0;
+
+}
+
+.logo1{
+    display : block;
+    
+    margin: 0 auto;
+   
+  
+
+}
+
+.leadsection h1 {
+text-align: center;
+color: #00b39b;
+font-size: 2.125rem;
+font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+}
+
+.leadsection {
+  max-width: 1015px;
+  margin: 0 auto;
+}
+
+.brand {
+    max-width: 1015px;
+    margin: 0 auto;
+  }
+.col{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows : 200px;  */
+    column-gap: 20px;
+
+}
+.patients{
+    padding: 20px;
+    /* position:relative; */
+    background-color: #00b39b; 
+   
+    /* grid-column-start: 1; */
+    /* grid-column-end:2; */
+    /* width: 200px; */
+   max-height: 300px;
+    border-radius: 3%;
+    /* padding:auto; */
+}
+.doctors{
+    padding: 20px;
+    /* background-color: #00b39b;  */
+    background: #3d83df;
+    /* grid-column-start: 1; */
+    /* grid-column-end:2; */
+    /* width: 200px; */
+    max-height: 300px;
+    border-radius: 3%;
+    /* padding:auto; */
+}
+.clinics{
+    padding:20px;
+    background-color: #1b2734;; 
+    /* grid-column-start: 1; */
+    /* grid-column-end:2; */
+    /* width: 200px; */
+    max-height: 300px;
+    border-radius: 3%;
+    /* padding:auto; */
+}
+.logopatients{
+    /* position : absolute; */
+    /* margin-left:50; */
+}
+
+.patients h1{
+    font-size: 1.625em;
+    color:white;
+    font-weight: 400;
+}
+
+.patients h2{
+    font-size:1.5em;
+    color:white;
+    font-weight: 300;
+}
+
+.doctors h1{
+    font-size: 1.625em;
+    color:white;
+    font-weight: 400;  
+}
+
+.clinics h1{
+    font-size: 1.625em;
+    color:white;
+    font-weight: 400;
+}
+
+.doctors h2{
+    font-size:1.5em;
+    color:white;
+    font-weight: 300;
+}
+.clinics h2{
+    font-size:1.5em;
+    color:white;
+    font-weight: 300;
+}
+
+.brands_section {
+    max-width: 1015px;
+    margin: 2.5rem auto 3.125rem;
+    padding: 0 20px;
+  }
+  .brands_container{
+    display:flex;
+  }
+
+  .brands_section h1 {
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+  }
+  .brands_logos{
+    display : flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 67%;
+    list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+
+  brands_logos li {
+    padding: 5px 0 5px 5px;
+    
+  }
+  .brands_logos a svg {
+    height: 20px;
+     width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+     fill: hsla(0, 0%, 67%, 0.7); 
+  }
+
+  .brands_logos a:hover svg{
+    fill:aqua;
+  }
+
+  .brands_logos .tuotempo,
+.brands_logos .gipo,
+.brands_logos .clinicloud,
+.brands_logos .jameda {
+  transition: all 0.2s ease 0s;
+  filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%)
+    contrast(0);
+  -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg)
+    brightness(300%) contrast(0);
+  opacity: 0.55;
+}
+.brands_logos .tuotempo:hover,
+.brands_logos .gipo:hover,
+.brands_logos .clinicloud:hover,
+.brands_logos .jameda:hover {
+  filter: none;
+}
